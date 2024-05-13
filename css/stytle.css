@@ -1355,3 +1355,91 @@ footer .footer-about p {
   color: white;
 }
 /* end whatsapp icon */
+/* start testimonials section */
+.testimonials {
+  background-color: #222;
+  position: relative;
+  padding: 50px 0 30px;
+  overflow: hidden;
+}
+.testimonials .main-title {
+  color: #fff;
+}
+/* @media (max-width: 575px) {
+  .testimonials .main-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .testimonials .main-title {
+    font-size: 15px;
+  }
+} */
+.testimonials .container {
+  position: relative;
+  z-index: 2;
+}
+.testimonials .carousel-item img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+}
+.testimonials .carousel-item .testimonials-title {
+  color: white;
+  text-transform: capitalize;
+}
+.testimonials .carousel-item .testimonials-job {
+  color: #ccc;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+.testimonials .carousel-item .testimonials-desc {
+  color: #eee;
+  letter-spacing: 3px;
+  width: 70%;
+  margin: auto;
+  line-height: 1.5;
+}
+@media (max-width: 576px) {
+  .testimonials .carousel-item .testimonials-desc {
+    display: none;
+  }
+}
+.carousel-control-next {
+  right: 0;
+}
+.carousel-control-prev {
+  left: 0;
+}
+.carousel-indicators {
+  bottom: -20px;
+}
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--fifth-color);
+  width: fit-content;
+  height: fit-content;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border-radius: 7px;
+}
+.testimonials .img-client {
+  width: 50% !important;
+  height: 100% !important;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .testimonials .img-client {
+    width: 60% !important;
+    height: 100% !important;
+    border-radius: 10px;
+  }
+}
+/* end testimonials section */
